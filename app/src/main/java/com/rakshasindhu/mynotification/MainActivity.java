@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         int i =5;
         int j=2;
         int k=3;
+        String str ="hello from branch01";
         Toast.makeText(MainActivity.this,"i added"+5,Toast.LENGTH_LONG).show();
     }
 
