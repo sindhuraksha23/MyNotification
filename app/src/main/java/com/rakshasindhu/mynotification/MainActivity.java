@@ -10,11 +10,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     Button b1;
+    EditText edit_msg;
     public static int notificationId = 1;
     public static final String KEY_NOTIFICATION_REPLY = "KEY_NOTIFICATION_REPLY";
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b1 = (Button) findViewById(R.id.button);
         Toast.makeText(MainActivity.this,"GitHub change Demo:",Toast.LENGTH_LONG).show();
+
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
