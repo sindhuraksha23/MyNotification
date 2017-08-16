@@ -80,4 +80,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void changeMethodAdded(){
+        int i =5;
+        int j=2;
+        Toast.makeText(MainActivity.this,"i added"+5,Toast.LENGTH_LONG).show();
+    }
+
 }
