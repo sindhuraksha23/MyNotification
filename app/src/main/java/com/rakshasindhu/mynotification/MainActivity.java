@@ -89,4 +89,11 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,"i added"+5,Toast.LENGTH_LONG).show();
     }
 
+    public void add()
+    {
+        int no1,no2;
+        int ans;
+
+    }
+
 }
