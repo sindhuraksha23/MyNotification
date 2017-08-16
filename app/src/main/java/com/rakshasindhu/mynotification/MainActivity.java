@@ -95,5 +95,11 @@ public class MainActivity extends AppCompatActivity {
         int ans;
 
     }
+    public void mul()
+    {
+        int no1,no2;
+        int ans;
+
+    }
 
 }
