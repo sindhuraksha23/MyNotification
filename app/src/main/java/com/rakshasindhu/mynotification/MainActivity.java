@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         b1 = (Button) findViewById(R.id.button);
+        Toast.makeText(MainActivity.this,"GitHub change Demo",Toast.LENGTH_LONG).show();
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
