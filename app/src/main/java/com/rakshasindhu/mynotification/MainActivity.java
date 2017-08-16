@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -70,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
                 // Obtain NotificationManager system service in order to show the notification
                 NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
                 notificationManager.notify(notificationId, mBuilder.build());
+
+                Toast.makeText(MainActivity.this, "this is a new change", Toast.LENGTH_SHORT).show();
 
 
             }
