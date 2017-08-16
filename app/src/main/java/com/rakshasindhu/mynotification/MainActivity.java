@@ -96,5 +96,11 @@ public class MainActivity extends AppCompatActivity {
         int ans;
 
     }
+    public void sub()
+    {
+        int no1,no2;
+        int ans;
+
+    }
 
 }
